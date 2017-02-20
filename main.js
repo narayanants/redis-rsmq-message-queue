@@ -19,7 +19,7 @@ rsmq.sendMessage({qname:"myqueue",message:"Hello World"},function(err,resp){
 
 // Receive a message
 
-rsmq.receiveMessage({qname:'myqueue'},function(err,res){
+rsmq.receiveMessage({qname:'myqueue'},function(err,resp){
     if(resp.id){
         console.log("Message received.",resp);
     }else{
