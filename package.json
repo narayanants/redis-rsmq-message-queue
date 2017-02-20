@@ -1,0 +1,22 @@
+{
+  "name": "redisqueue",
+  "version": "1.0.0",
+  "description": "redis message queue",
+  "main": "main.js",
+  "dependencies": {
+    "rsmq": "^0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Redis",
+    "Message",
+    "queue",
+    "using",
+    "rsmq"
+  ],
+  "author": "Narayanan <narayanan.subramanian@softcrylic.co.in>",
+  "license": "MIT"
+}
