@@ -11,6 +11,7 @@ rsmq.createQueue({qname:"myqueue"}, function (err, resp) {
 
 
 // send a message
+
 rsmq.sendMessage({qname:"myqueue",message:"Hello World"},function(err,resp){
     console.log("Sending message");
     if(resp){
